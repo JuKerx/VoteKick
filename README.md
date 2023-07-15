@@ -3,11 +3,10 @@ A simple plugin with a lot of customization and permissions per command, Support
 
 ## Commands
 
-- **/votekick** or **/vk**
-  - List of commands for the plugin.
-- **/votekick start (player)**
-- **/votekick yes**
-- **/votekick no**
-- **/votekick check**
-- **/votekick cancel**
-- **/votekick reload**
+- `/votekick` or `/vk` - List of commands for VoteKick plugin.
+- `/votekick start (player)` - Start a vote-kick on someone.
+- `/votekick yes` - Vote yes
+- `/votekick no` - Vote no
+- `/votekick check` - Check the status of an ongoing vote-kick.
+- `/votekick cancel` - Cancel the vote-kick.
+- `/votekick reload` - Reload the configuration file.
