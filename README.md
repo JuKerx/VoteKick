@@ -1,4 +1,4 @@
-# VoteKick
+# ⚡ VoteKick ⚡
 A simple plugin with a lot of customization and permissions per command, Supports 1.19 up to 1.20.x (Bukkit, Spigot, Paper, Purpur and Folia)
 
 ## Commands
