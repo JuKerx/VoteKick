@@ -1,0 +1,31 @@
+# Configuration file for Vote Kick plugin
+# Made by juker#4991
+# Contact me if there are any bugs or problems with the plugin, Thank you.
+
+# {PLAYER} = The raw name of the player who started the vote kick.
+# {DISPLAY_NAME} = The display name of the player who started the vote kick.
+# {TARGET} = The targetted player in a vote kick.
+# {REMAINING_TIME} = The remaining amount of time before they can join back.
+
+# The message players see when they get kicked from the server after a vote kick
+Vote Kick Message:
+  - '&cYou were recently vote kicked from the server!'
+  - '&7Please wait {REMAINING_TIME} seconds before joining back!'
+
+# Sends a broadcast that says "30 (Half of vote kick duration) seconds left to vote" including the sound fx too
+Countdown Warning: true
+Countdown Type: ACTION_BAR
+# Message type for warning broadcast. Available ones: BROADCAST, ACTION_BAR, TITLE
+
+# Seconds until the vote kick ends
+Countdown: 60
+# Seconds until a vote kicked player can join back
+Vote Ban Duration: 60
+
+# Plays sound on certain events like when the vote-kick starts & ends or when you cancel the vote kick
+Event Audio: true
+Event Sound: 'ui.button.click'
+# From 0.0 to 1.0 max
+Volume: 1.0
+Pitch: 1.0
+# From 0.0 to 2.0 max

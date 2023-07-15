@@ -1,0 +1,42 @@
+name: VoteKick
+version: '${project.version}'
+main: jukerx.votekick.VoteKick
+api-version: 1.19
+load: STARTUP
+authors: [jukerx]
+description: A simple vote kick plugin
+folia-supported: true
+commands:
+  votekick:
+    description: Create a poll to kick a player
+    aliases: [ vk ]
+
+permissions:
+  votekick.*:
+    description: All permissions for the VoteKick plugin.
+    default: op
+    children:
+      - votekick.start
+      - votekick.yes
+      - votekick.no
+      - votekick.check
+      - votekick.cancel
+      - votekick.reload
+  votekick.start:
+    description: Permission to start to a vote-kick.
+    default: not op
+  votekick.yes:
+    description: Permission to vote yes to a vote-kick.
+    default: not op
+  votekick.no:
+    description: Permission to vote no to a vote-kick.
+    default: not op
+  votekick.check:
+    description: Permission to check the status of an ongoing vote-kick.
+    default: op
+  votekick.cancel:
+    description: Permission to cancel a vote-kick.
+    default: not op
+  votekick.reload:
+    description: Permission to reload the configuration file of this plugin.
+    default: op
