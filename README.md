@@ -1,4 +1,4 @@
-# ⚡ VoteKick ⚡
+# ⚡ VoteKick ⚡ (outdated and unsupported)
 A simple plugin with a lot of customization and permissions per command, Supports 1.8 up to 1.20.6 (Bukkit, Spigot, Paper, Purpur and Folia)
 
 (ill do the git stuff for source code later use jd gui or something)
